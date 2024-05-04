@@ -1,0 +1,69 @@
+.search-bar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 160px;
+    bottom: 150px;
+    height: 90px;
+    font-family: arial;;
+}
+.from-box,.to-box,.date-box,.search-button-box{
+    display: flex;
+    border-right:1px solid rgb(193, 191, 191);
+    
+}
+.from-box{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.from-box input,.to-box input,.date-box input{
+    border: none;
+    font-size: large;
+}
+
+.search-bar-icon{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 89px;
+    border-right: none;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+.from-box .search-bar-icon{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+}
+
+.search-bar-icon img{
+    object-fit: contain;
+    height: 20px;
+    border-right: none;
+}
+.search-button-box{
+    display: flex;
+    height: 90px;
+    border: none;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius: 20px;
+   
+}
+.search-button-box button{
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(222, 96, 96);
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.from-box input:focus
+,.to-box input:focus,
+.date-box input:focus,
+.search-button-box input:focus{
+    outline: none;
+}

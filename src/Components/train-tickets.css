@@ -1,0 +1,90 @@
+.train-tickets-container{
+  margin-top: 450px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  font-family: montserrat;
+}
+
+.train-tickets-leftsection{
+  width: 510px;
+}
+
+.leftsection-heading{
+  font-size: 41px;
+  width: 100%;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.leftsection-heading span{
+  font-weight: bolder;
+}
+
+.train-tickets-button{
+  margin-top: 45px;
+  width: 190px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  cursor: pointer;
+
+  border-bottom: 3px solid rgb(216, 78, 85);
+
+  padding: 10px 20px;
+}
+
+.train-tickets-button span{
+  color: rgb(216, 78, 85);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.book-trains-para{
+  margin-top: 45px;
+  line-height: 30px;
+  width: 100%;
+}
+
+.book-trains-benefits-list{
+  margin-top: 25px;
+  font-weight: bold;
+  width: 300px;
+
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 20px;
+}
+
+.book-trains-benefits-list div{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+}
+
+.book-train-button{
+  margin-top: 60px;
+  padding: 10px 8px;
+  width: 200px;
+  background-color: rgb(216, 78, 85);
+  border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  cursor: pointer;
+}
+
+.book-train-button div{
+  color: white;
+  font-weight: bold;
+}
+
+.train-tickets-rightsection img{
+  width: 550px;
+}

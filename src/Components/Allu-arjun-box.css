@@ -1,0 +1,13 @@
+.allu-arjun-box{
+    background-image: url('./home-banner.png');
+    background-size: cover;
+  
+    position:relative;
+    top:100px;
+    height: 500px;
+  }
+  
+  .allu-arjun-pic{
+      height: auto;
+      min-width: 100px;
+  }

@@ -1,0 +1,111 @@
+.app-download-box{
+   /* position: absolute;
+    top: 1694px;
+    left: 126px;*/
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto,arial;
+    background-color: red;
+    padding: 20px;
+    background-image: url("https://s1.rdbuz.com/web/images/homeV2/appinstall/appInstallbg.svg");
+    width: 1121px;
+    height: 378px;
+    border-radius: 41px;
+    padding-left: 60px;
+
+}
+.app-download-box-body{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+.app-download-box h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+
+.ratings{
+    display: flex;
+    margin: 0;
+    margin-bottom: 30px;
+
+    
+}
+.rating-1{
+    border-right: 2px solid rgb(180, 178, 178);
+}
+.rating-1,.rating-2{
+    display:flex ;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.rate{
+    color: #4a4a4a;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-bottom: 15px;
+}
+.app-download-lower-area{
+    display: flex;
+}
+.app-download-lower-area-1{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 83px;
+}
+.h1,.h2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.h1 text,.h2 text{
+    padding-left:10px
+}
+.app-download-lower-area-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 80px;
+    color: white;
+}
+.app-download-lower-area-2 text{
+    width: 119px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.app-download-lower-area-3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+.app-download-lower-area-3 text{
+    width: 119px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.play-store{
+    margin-bottom: 14px;
+    margin-top: -9px;
+
+}
